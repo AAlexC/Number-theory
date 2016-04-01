@@ -24,7 +24,7 @@ int main(){
         int primoMayor=j;
            while( P[p1] + P[j] != nu){
                 j--;
-                if(P[p1] == P[j] && P[p1] + P[j] != nu){//Si son iguales 3 y al sumar son diferentes aumentamos dejando al máximo y aumentamos el bajo
+                if(P[p1] == P[j] && P[p1] + P[j] != nu){
                    j=primoMayor;
                    p1++;
                 }
