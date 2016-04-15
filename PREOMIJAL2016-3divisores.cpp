@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 unsigned long long int a, i, j, b, c = 0;
-#define MAXN 1000000
-bool Criba[1000002];
+#define MAXN 1000002
+bool Criba[MAXN];
 int main(){
     cin.tie(0); ios_base::sync_with_stdio(0);
     cin >> a >> b;
