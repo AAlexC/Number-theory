@@ -2,7 +2,6 @@
 using namespace std;
 unsigned long long int a, i, j, b, c = 0;
 #define MAXN 1000000
-#define MAXC 1000000000000
 bool Criba[1000002];
 int Cuantos[100000002];
 int main(){
